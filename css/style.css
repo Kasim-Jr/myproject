@@ -1,0 +1,347 @@
+input {
+    padding: 3px;
+    outline: #928cff;
+    width: 198px;
+}
+
+#result {
+    color: darkmagenta;
+    font-size: larger;
+}
+
+p {
+    color: crimson;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    border: none;
+    color: #ffffff;
+    padding: 3%;
+    background-color: #b8b6b0;
+
+
+}
+
+.op1 {
+    height: 50px;
+    width: 50px;
+    border: none;
+    color: #ffffff;
+    padding: 5%;
+    background-color: #f78a2a;
+}
+
+/*
+    div 
+    .div
+    #div
+    */
+body {
+    background-color: #928cff;
+}
+
+#show {
+
+    position: relative;
+    /* background-image: url(../3c1e6253826f6a009b2a02559b800753.jpg);
+        background-attachment: fixed;
+        background-size: cover*/
+
+    /*   padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+       */
+    width: 5px;
+    height: 5px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #595957;
+    height: 50px;
+    width: 50px;
+}
+
+.op1:hover {
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    color: #fa9d4b;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-bar {
+    height: 50px;
+    background-color: #666360;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+
+.tbar {
+    width: 207px;
+    height: 18px;
+    background-color: #bf6c18;
+    position: relative;
+    text-align: left;
+
+    /* line-height: 18px;
+        
+        padding-top: 18px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+    */
+
+}
+
+
+.second-bar {
+    height: 50px;
+    background-color: #b8b3ae;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    width: 15%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.click {
+    width: 100px;
+    height: 50px;
+    padding: 5px 10px;
+    background-color: #2196F3;
+    color: white;
+    position: absolute;
+    left: 0;
+    border: none;
+
+}
+
+.buttonIcon {
+    position: fixed;
+    font-size: 1.9em;
+    bottom: 10px;
+    left: 30px;
+
+}
+
+
+.click:hover {
+    height: 50px;
+    width: 100px;
+    background-color: #ffffff;
+    color: #fa9d4b;
+}
+
+.click {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    bottom: 0;
+    font-family: sans-serif;
+
+}
+
+#squareContainer {
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+    display: none;
+    margin-top: 20px;
+}
+
+#dateDisplay {
+    color: #000000;
+    position: fixed;
+    bottom: 25px;
+
+    right: 57px;
+    font-size: 18px;
+}
+
+
+#currentTime {
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    font-size: 18px;
+}
+
+#rectangle {
+    position: fixed;
+    bottom: 50px;
+    height: 600px;
+    width: 300px;
+    background-color: #fa9d4b;
+    display: none;
+}
+
+.x {
+    height: 100%;
+    background-color: #ff0000;
+    color: #fff;
+    right: 0;
+    position: absolute;
+
+
+}
+
+#show {
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: grab;
+
+}
+
+#tocalc {
+    width: 300px;
+
+    position: relative;
+    left: 0;
+    height: 30px;
+    background-color: #fa9d4b;
+    cursor: pointer;
+    font-size: 1.35em;
+    border: none;
+    font-family: cursive;
+}
+
+#tocalc:hover {
+
+    background-color: #ce9564;
+    position: relative;
+    left: 0;
+    height: 30px;
+    cursor: pointer;
+    font-size: 1.35em;
+    border: none;
+    font-family: cursive;
+
+}
+
+#catch {
+    width: 50px; /* Adjust width and height as needed */
+  height: 50px;
+  border-radius: 50%; /* Make it a perfect circle */
+  background-color: #3498db; /* Change background color */
+  color: white; /* Change text color */
+  padding: 10px; /* Adjust padding for text */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Indicate clickable area */
+  /* Optional: Add hover effect */
+  transition: background-color 0.2s ease;
+}
+
+#theurl {
+    /*
+position: relative;
+left: 640px;
+top: 215px;*/
+    width: 350px;
+    font-family: cursive;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+
+#go {
+    /*position: relative;
+    left: 400px;
+    top: 280px;*/
+    background-color: #666360;
+    width: 100px;
+    font-family: cursive;
+}
+
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+}
+
+#tosearch {
+    width: 300px;
+
+    position: relative;
+    left: 0;
+    height: 30px;
+    background-color: #fa9d4b;
+    cursor: pointer;
+    font-size: 1.35em;
+    border: none;
+    font-family: cursive;
+}
+
+#tosearch:hover {
+
+    background-color: #ce9564;
+    position: relative;
+    left: 0;
+    height: 30px;
+    cursor: pointer;
+    font-size: 1.35em;
+    border: none;
+    font-family: cursive;
+
+}
+
+#tocatch {
+    width: 300px;
+
+    position: relative;
+    left: 0;
+    height: 30px;
+    background-color: #fa9d4b;
+    cursor: pointer;
+    font-size: 1.35em;
+    border: none;
+    font-family: cursive;
+}
+
+#tocatch:hover {
+
+    background-color: #ce9564;
+    position: relative;
+    left: 0;
+    height: 30px;
+    cursor: pointer;
+    font-size: 1.35em;
+    border: none;
+    font-family: cursive;
+
+}
+
+.buttonText {
+
+    position: relative;
+    top: 15px;
+    right: 5px;
+    font-family: cursive;
+}
